@@ -1,6 +1,6 @@
 ### Andrea María Cabrera Rosito - 202010918
 # TIPOS DE KERNEL Y SUS DIFERENCIAS
-Para poder entener el kernel, es necesario saber qué es. **Kernel** se refiere al centro del sistema operativo y administra las funciones principales del hardware para cualquier tipo de computadora. Existen 3 tipos:
+Para poder entender el kernel, es necesario saber qué es. **Kernel** se refiere al centro del sistema operativo y administra las funciones principales del hardware para cualquier tipo de computadora. Existen 3 tipos:
 
 - Kernel Monolítico: También se le denomina núcleo monolítico. Es una arquitectura de SO donde su estado es del modo supervisor (protegido). Se encarga especialmente de gestión de memoria y procesos, comunicación de estos y se le atribuye las funciones de soporte tanto de drivers como hardware. Además, el acceso del privilegio completo sobre los diversos componentes son conservados por este. 
 Su tamaño se considera grande; cada vez que una nueva funcionalidad sea agregada, el kernel deberá de recompilarse completamente y reiniciarse. También existe la posibilidad de que si existe un error en su rutina, el error puede propagarse por toda su esctructura ya que los componenentes funcionales del núcleo poseen acceso a los demás datos que se encuentren internamente y a las rutinas de estos.
