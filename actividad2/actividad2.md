@@ -40,7 +40,7 @@ Andrea María Cabrera Rosito - 202010918
 >Se guarda el mensaje en el log.
 
 ## Explicación cronjob:
-
+![Alt Text](./img/Cron.png)
 En este caso, para la ejecución del cronjob se utilizó:
 `*/5 * * * * /bin/bash /home/andrea/Universidad/so1_actividades_202010918/actividad2/actividad2.sh`
 dichos argumentos son: 
