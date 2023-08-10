@@ -1,15 +1,14 @@
 # Actividad no. 3 
 ### Andrea María Cabrera Rosito - 202010918
-=====
 
 # PARTE 1 - Gestion de Usuarios
 - **Creación de usuarios llamados:**
- - *usuario1* 
- ![Usuario1](./imgs/usuario1_p1.png)
+ - *usuario1*
+![Usuario1](./imgs/usuario1_p1.png)
  - *usuario2* 
- ![Usuario2](./imgs/usuario2_p1.png)
+![Usuario2](./imgs/usuario2_p1.png)
  - *usuario3*
- ![Usuario3](./imgs/usuario3_p1.png)
+![Usuario3](./imgs/usuario3_p1.png)
 
 - **Establecimiento de nueva contraseña para cada usuario creado.**
     ![pwds](./imgs/newpwd.png)
@@ -29,8 +28,8 @@
 ![verifGroups](./imgs/groups.png)
 >Nota: El comando `groups` muestra los grupos a los que pertenece el usuario que lo ejecuta, por lo que se agregó el nombre del usuario a revisar. En este caso, *usuario1* y *usuario2*. Donde si se ve, que *usuario1* pertenece los grupos *grupo1*, *usuario1* y *usuario2* a los grupos *grupo2* y *usuario2* - los grupos denominados "usuarioX" donde "X" es el correlativo del mismo usuario, se crearon cuando los usuarios fueron creados.
 
-- **Eliminación del grupo *grupo2***.
-![del_group2](./imgs/delgrp.png)
+- **Eliminación del grupo *grupo2***. <br>
+- ![del_group2](./imgs/delgrp.png)
 
 # PARTE 3 - Gestion de Permisos
 - **Creación de Archivos y Directorios**
@@ -49,7 +48,7 @@
 
  ![archivo1](./imgs/lsld.png)
 >ls -ld 
-- **Modificar Permisos usando `chmod` con Modo Numérico: Cambia los permisos del `archivo1.txt` para que sólo `usuario1` pueda leer y escribir (permisos `rw-`), el grupo pueda leer (permisos `r--`) y nadie más pueda hacer nada.**
+- **Modificar Permisos usando `chmod` con Modo Numérico: Cambia los permisos del `archivo1.txt` para que sólo `usuario1` pueda leer y escribir (permisos `rw-`), el grupo pueda leer (permisos `r--`) y nadie más pueda hacer nada.** <br>
  6 = rw- <br>
  4 = r-- <br>
  0 = --- <br>
@@ -61,7 +60,7 @@
 - **Cambiar el Grupo Propietario: Cambia el grupo propietario de `archivo2.txt` a `grupo1`.**
  ![archivo1](./imgs/chgrp.png)
 
-- **Configurar Permisos de Directorio: Cambia los permisos del `directorio1` para que sólo el propietario pueda entrar (permisos `rwx`), el grupo pueda listar contenidos pero no entrar (permisos `r--`), y otros no puedan hacer nada.**
+- **Configurar Permisos de Directorio: Cambia los permisos del `directorio1` para que sólo el propietario pueda entrar (permisos `rwx`), el grupo pueda listar contenidos pero no entrar (permisos `r--`), y otros no puedan hacer nada.** <br>
  7 = rw- <br>
  4 = r-- <br>
  0 = --- <br>
