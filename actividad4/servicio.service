@@ -1,0 +1,8 @@
+[Unit]
+Description=Service para la actividad no. 4
+
+[Service]
+ExecStart=/usr/local/bin/actividad4.sh
+
+[Install]
+WantedBy=multi-user.target
